@@ -17,7 +17,7 @@ export default function ThanksPage() {
         <p style={styles.eyebrow}>You&apos;re in.</p>
         <h1 style={styles.heading}>Check your inbox.</h1>
         <p style={styles.body}>
-          Boot Up opens for the first 500 readers. We&apos;ll reach out when
+          Boot Up opens for the first 200 readers. We&apos;ll reach out when
           we&apos;re ready — one email, no noise.
         </p>
         <p style={styles.body}>

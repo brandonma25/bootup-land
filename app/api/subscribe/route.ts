@@ -38,6 +38,7 @@ export async function POST(req: NextRequest) {
           utm_medium: 'paid',
           utm_campaign: 'b2-thesis-test',
           tags: ['bootup_signup'],
+          automations: ['aut_ed3cb486-48d3-45c8-bd7a-bd0d73aded61'],
           custom_fields: [{ name: 'role', value: role }],
         }),
       }

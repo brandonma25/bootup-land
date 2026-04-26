@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --color-bg: #ffffff;
+  --color-bg-secondary: #f7f6f4;
+  --color-text: #111111;
+  --color-text-secondary: #6b6b6b;
+  --color-text-tertiary: #9b9b9b;
+  --color-border: #e8e8e5;
+  --color-accent: #c4440a;
+  --color-accent-bg: #fef3ef;
+  --color-accent-text: #8f2f06;
+  --page-padding: clamp(1.25rem, 5vw, 2rem);
+  --section-gap: clamp(3rem, 8vw, 5rem);
+}
+
+html {
+  background: var(--color-bg);
+  color: var(--color-text);
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body, 'DM Sans'), system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-display {
+  font-family: var(--font-display, 'Bricolage Grotesque'), serif;
+}
+
+input,
+select,
+button,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
